@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { fetchMarvelCharacters, } from '../services/api';
 
-const CharacterList = ({ apiKey }) => {
+const CharacterList = ({apiKey}) => {
   const [characters, setCharacters] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
 
