@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { fetchMarvelCharacters, } from '../services/api';
 
 const CharacterList = ({ apiKey }) => {
