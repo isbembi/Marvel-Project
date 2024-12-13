@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://isbembi.github.io/Marvel-Project/",
+  "homepage": "https://isbembi.github.io/Marvel-Project",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
