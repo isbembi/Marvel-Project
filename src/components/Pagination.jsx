@@ -8,14 +8,14 @@ function Pagination({ currentPage, totalPages, onPageChange }) {
   };
 
   return (
-    <div>
-      <button onClick={handlePrev} disabled={currentPage === 1}>
+    <div style={{ textAlign: "center", margin: "20px 0" }}>
+      <button  onClick={handlePrev} disabled={currentPage === 1} style={{ marginRight: "10px", backgroundColor:"red", color:"white" }} >
         Prev
       </button>
-      <span>
+      <span style={{color: "white"}}>
         Page {currentPage} of {totalPages}
       </span>
-      <button onClick={handleNext} disabled={currentPage === totalPages}>
+      <button onClick={handleNext} disabled={currentPage === totalPages} style={{ marginLeft: "10px", backgroundColor:"red", color:"white" }}>
         Next
       </button>
     </div>
