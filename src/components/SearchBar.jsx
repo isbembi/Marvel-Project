@@ -9,7 +9,7 @@ function SearchBar({ onSearch }) {
 
   const handleKeyPress = (e) => {
     if (e.key === "Enter") {
-      handleSearch(); // Trigger search when Enter key is pressed
+      handleSearch(); 
     }
   };
 
